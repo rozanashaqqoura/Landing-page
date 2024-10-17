@@ -1,0 +1,201 @@
+
+
+*{
+  background-color: rgb(234 234 234 / 10%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* start header */
+.img-llogo img {
+  width:30%;
+  margin-left: 30px;
+}
+ul li{
+  list-style: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+ul{
+  display: flex;
+  justify-content: space-around;
+}
+.heder-title{
+  display: flex;
+  /* width: 600px; */
+}
+.header-text{
+  width: 500px;
+}
+
+/* end header */
+
+
+/* start Home */
+.home{
+  text-align: center;
+
+}
+.home h1 {
+  font-size: 20px;
+}
+
+.search input[type="search"]{
+  background-color:white !important;
+  width: 240px;
+  border: 1px solid #d1cccc;
+  font-size: 13px;
+  color: black !important;
+  height: 20px;
+}
+.but-org{
+  margin-top: 14px;
+  background-color: #ffc559;
+  border: none;
+  width: 110px;
+  height: 27px;
+  font-weight: 700;
+}
+
+
+
+
+/* End Home */
+
+
+
+
+/* start hero */
+.hero{
+  margin-top: 90px;
+
+}
+.hero-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 600px;
+  /* background-color: blanchedalmond; */
+  margin-top: 30px;
+  
+}
+.text-title{
+  /* background-color: blue; */
+  margin-left: 40px;
+}
+.text-title h1{
+font-size: 20px;
+margin-bottom: -9px;
+}
+.text-title p{
+  font-size: 12px;
+}
+.hero .hero-text .icon svg {
+  color:rgb(239, 170, 42);
+  width: 25px;
+  height: 20px;
+  ;
+}
+.boos-video{
+  margin: auto;
+  width: 400px;
+  
+  /* background-color: blanchedalmond; */
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+
+
+
+/* End hero */
+
+
+
+/* statr video */
+
+
+
+/* end video */
+
+
+/* start salary */
+.boos-sslary{
+  /* background-color: aquamarine; */
+  width: 600px;
+  text-align: center;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.card-salary{
+  /* background-color: blueviolet; */
+  width: 230px;
+  height: 200px;
+  border: 1px solid #d1cccc;
+  margin: 5px;
+}
+.title-text-1 ul {
+  display: block;
+}
+.title-text-1 ul li {
+  list-style: none;
+  font-size: 10px;
+  font-weight: 500;
+  margin: 8px;
+  text-align: center;
+  margin-right: 40px;
+}
+.card-salary p{
+  background-color: #9c9c9cad;
+  margin-top: 0;
+  font-size: 11px;
+  
+  padding: 10px;
+}
+.butt-salary{
+  border: none;
+  width: 90px;
+  height: 25px;
+  background-color: orange;
+  font-size: 12px;
+  
+}
+
+
+
+
+/* End salary */
+
+
+
+/* start footer */
+.footer
+{
+  width: 600px;
+  text-align: center;
+margin: auto;
+display: flex;
+justify-content:end;
+align-items: center;
+background-color: rgb(226, 229, 229);
+margin-top: 50px;
+}
+.footer-team{
+  font-size: 12px;
+  margin-top: 15px;
+  
+
+}
+.footer .footer-team .text-footer span{
+  margin: 5px;
+}
+.footer .footer-team p {
+  color: gray;
+  padding-right: 10px;
+}
+
+
+
+/* End footer */
